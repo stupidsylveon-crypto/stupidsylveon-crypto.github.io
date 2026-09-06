@@ -198,6 +198,7 @@ textarea {
   pre,
   blockquote {
     border: 1px solid #999;
+    white-space: nowrap;
     page-break-inside: avoid;
   }
   thead {
