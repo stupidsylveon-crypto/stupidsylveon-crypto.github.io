@@ -86,7 +86,9 @@ body {
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
-  outline: 0 !important;
+  outline-style: 0 !important;
+  outline-width: 0 !important;
+  outline-color: 0 !important;
 }
 
 hr {
@@ -105,6 +107,14 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 14px;
+}
+
+pre {
+  color: #aaaaaa;
+  line-height: 18px;
+  margin-top: 0;
+  margin-bottom: 14px;
+  overflow: auto;
 }
 
 abbr[title],
@@ -721,11 +731,6 @@ kbd {
 kbd kbd {
   padding: 0;
   font-weight: 400;
-}
-
-pre {
-  display: block;
-  color: #000000;
 }
 
 pre code {
